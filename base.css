@@ -6,7 +6,13 @@ body {
     display: flex;
     justify-content: center;
 }
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
 
+}
 .wrapper {
     width: 1200px;
     display: flex;
@@ -24,9 +30,10 @@ body {
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: rgb(166, 207, 207);
     min-height: 150px;
 }
+
 .content {
     background-color: white;
     min-height: 300px;
@@ -35,4 +42,47 @@ body {
 .footer {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
+}
+.formulario {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+}
+h1,h2,h3 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+.input_text,
+.message {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
 }

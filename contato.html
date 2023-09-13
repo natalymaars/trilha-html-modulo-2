@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="template.html">Página Principal</a></li>
+                <li><a href="sobreaclinica.html">Sobre a clinica</a></li>
+                <li><a href="horario.html">Horários</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="contato.png" width="70px" alt="">
+            </div>
+    
+            <div class="content">
+                <div class="telefone">
+                    <p>Telefone 43 1234-5678 </p>
+                    <p>Whatsapp 43 99999 9999</p>
+                </div>
+                <div class="endereco">
+                    <p>Rua dos bobos nº0</p>
+                    <iframe src="https://goo.gl/maps/e4ahdjdXBXKqwz8c7" frameborder="5"></iframe>
+
+                </div>
+                <div class="formulario">
+                    <form action="">
+                        <h1>Formulario de Contato :</h1>
+
+		                <label>
+			                <span>Nome Completo</span>
+ 			                <input type="text" class="input_text" name="nome" id="name"/>
+
+		                </label>
+
+		                <label>
+ 			                <span>Email</span>
+			                <input type="text" class="input_text" name="email" id="email"/>
+		                </label>
+
+		                <label>
+ 			                <span>Assunto</span>
+			                <input type="text" class="input_text" name="assunto" id="subject"/>
+		                </label>
+
+		                <label>
+			                <span>Mensagem</span>
+			                <textarea class="message" name="feedback" id="feedback"></textarea>
+			                <input type="button" class="button" value="Enviar" />
+		                </label>
+                    </form>
+                </div>
+            </div>
+    
+            <div class="footer">
+                <fieldset>
+                    <legend>Contatos</legend>
+                    <p>Telefone 43 1234-5678 </p>
+                    <p>Whatsapp 43 99999 9999</p>  
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
